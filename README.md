@@ -1,15 +1,17 @@
 # hello_bun
 
-To install dependencies:
+This is my notes working with `bun` and the ecosystem.
+
+## TLDR;
+
+Start `sass` compiler in watch mode:
 
 ```bash
-bun install
+bunx sass -I node_modules -q -w scss:css/
 ```
 
-To run:
+Start bun dev server:
 
 ```bash
-bun run index.ts
+bun run html/page1.html
 ```
-
-This project was created using `bun init` in bun v1.2.5. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
