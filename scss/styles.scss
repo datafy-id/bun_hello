@@ -3,10 +3,41 @@
 @import "bootstrap/scss/functions.scss";
 @import "bootstrap/scss/variables.scss";
 
-.check2 {
-    background-color: map-get($grays, "100");
-    color: green;
-    font-size: 50px;
-    font-weight: bolder;
-    border: 1px solid red;
+body {
+  background-color: map-get($grays, "100");
+}
+
+header {
+  background-color: #296e29;
+  margin-bottom: 1.5rem;
+}
+
+.pkp_structure_content {
+  margin-bottom: 1.5rem;
+}
+
+.container-xl {
+  max-width: 1140px;
+}
+
+main {
+  border: 1px solid blue;
+}
+
+aside {
+  border: 1px solid red;
+}
+
+footer {
+  background-color: map-get($grays, "200");
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
+
+  font-size: 0.775rem;
+
+  @include media-breakpoint-up(md) {
+    p {
+      font-size: 1rem;
+    }
+  }
 }
