@@ -4,14 +4,14 @@
   "type": "module",
   "private": true,
   "devDependencies": {
-    "@types/bun": "^1.2.5"
+    "@types/bun": "^1.2.15"
   },
   "peerDependencies": {
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.3"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.3",
-    "sass": "^1.86.0"
+    "bootstrap": "^5.3.6",
+    "sass": "^1.89.1"
   }
 }
